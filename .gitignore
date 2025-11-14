@@ -1,0 +1,27 @@
+# Build artifacts
+*.o
+*.a
+*.so
+*.out
+*.log
+
+# Binary
+json-modbus-server
+
+# Common build dirs
+build/
+bin/
+obj/
+dist/
+
+# IDE/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+json-modbus-server
+*.o
+*.a
+*.so
+*.out
+*.log

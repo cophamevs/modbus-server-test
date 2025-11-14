@@ -1,0 +1,28 @@
+{
+    "mode": "tcp_rtu",
+    "tcp_port": 1502,
+    "unit_id": 1,
+    "serial": {
+        "device": "/dev/ttyACM0",
+        "baudrate": 9600,
+        "parity": "N",
+        "data_bits": 8,
+        "stop_bits": 1
+    },
+    "coils": {
+        "start_address": 0,
+        "count": 10
+    },
+    "input_bits": {
+        "start_address": 100,
+        "count": 10
+    },
+    "holding_registers": {
+        "start_address": 40000,
+        "count": 100
+    },
+    "input_registers": {
+        "start_address": 30000,
+        "count": 100
+    }
+}
